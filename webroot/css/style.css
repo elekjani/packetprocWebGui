@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Ericsson Capital TT'; 
+    font-weight: normal;
+    font-style: normal;
+    src: url("/font/EricssonCapitalTT.ttf");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#topologyWrapper {
+    width: 100%;
+}
+
+#topologyDisplay {
+    margin: 30px auto 10px auto;
+    border: 1px #000000 solid;
+    display: block;
+}
+
+#json {
+	margin: 10px auto 10px auto;
+	width: 100%;
+	text-align: center;
+}
+
+#jsonArea {
+	border: 1px #000000 solid;
+}
+
+#jsonSend {
+	display: inline;
+	background-color: #d0d0d0;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+#statusBar {
+    padding: 0;
+    width: 100%;
+    height: 116px;
+/*    background-color: #a0a0a0; */
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Ericsson Capital TT'; 
+    background-image: url('/img/ericsson_logo.png');
+    background-repeat: no-repeat;
+    background-size: 86px 116px;
+    background-position: 95% 0%;
+    z-index: -1;
+}
+
+#statusBar .status {
+    border-radius: 5px;
+    padding: 15px;
+    margin: 56px 10px 10px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#statusBar .status-success {
+    background-color: #00d000 !important;
+}
+
+#statusBar .status-failure {
+    background-color: #d00000 !important;
+}

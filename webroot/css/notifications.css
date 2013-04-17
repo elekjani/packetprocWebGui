@@ -1,0 +1,15 @@
+.notification {
+    font-family: 'Ericsson Capital TT' !important;
+}
+
+.success {
+    background-color: #00d000 !important;
+}
+
+.failure {
+    background-color: #d00000 !important;
+}
+
+.jGrowl-closer {
+    font-family: 'Ericsson Capital TT' !important;
+}

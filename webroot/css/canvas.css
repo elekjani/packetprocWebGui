@@ -1,0 +1,10 @@
+.nodetext {
+    font: 8px sans-serif;
+    pointer-events: none; 
+    font-family: 'Ericsson Capital TT';
+}
+
+.link {
+    stroke: #ccc;
+    stroke-width: 3px;
+}

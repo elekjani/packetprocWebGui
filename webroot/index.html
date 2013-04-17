@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Topology</title>
+<script type="text/javascript" src="/js/lib/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/js/lib/jquery.jgrowl_minimized.js"></script>
+<script type="text/javascript" src="/js/lib/jquery.ez-pinned-footer.js"></script>
+<script type="text/javascript" src="/js/lib//socket.io.min.js"></script>
+<script type="text/javascript" src="/js/lib/d3.js"></script>
+<script type="text/javascript" src="/js/lib/d3.layout.js"></script>
+<script type="text/javascript" src="/js/lib/d3.geom.js"></script>
+<script type="text/javascript" src="/js/topology.js"></script>
+<script type="text/javascript" src="/js/topologyDisplay.js"></script>
+<script type="text/javascript" src="/js/socket.js"></script>
+<script type="text/javascript" src="/js/statusbar.js"></script>
+<script type="text/javascript" src="/js/message.js"></script>
+<link rel="stylesheet" href="/css/lib/jquery.jgrowl.css" type="text/css"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css"/>
+<link rel="stylesheet" href="/css/canvas.css" type="text/css"/>
+<link rel="stylesheet" href="/css/notifications.css" type="text/css"/>
+</head>
+<body>
+    <div id="topologyWrapper">
+		<svg id="topologyDisplay" style="width: 800px; height: 600px;"></svg>
+	
+		<form id="json">
+	    	<textarea id="jsonArea" rows="10" cols="60"></textarea>
+	    	<div id="jsonSend">Send</div>
+		</form>
+    </div>
+    
+    <div id="statusBar">
+	<div id="webStatus" class="status status-failure">
+	    Web server
+	</div>
+    </div> 
+</body>
+
+</html>
